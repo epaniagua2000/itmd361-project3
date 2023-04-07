@@ -1,0 +1,171 @@
+#main-navbar {
+  background-color: navy;
+  overflow: hidden;
+  font-size: 1.25em;
+  font-family: tahoma, sans-serif;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  text-decoration: solid underline black 4px;
+}
+#onpage {
+  background-color: blue;
+}
+/* Above is all navigation */
+.centered {
+  text-align: center;
+}
+h1 {
+  font-size: 2.25em;
+}
+/* Below is Resume Layout */
+#fixedcontainer {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  left: 100px;
+  font-family: tahoma, sans-serif;
+}
+#fixedcontainer p, h4 {
+  font-size: 1.15em;
+}
+#fixedcontainer ul li, p {
+  line-height: 25px;
+}
+#fixedcontainer h2 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+/* Below is Lyric layout */
+#lyricscontent-wrapper {
+  background-color: burlywood;
+}
+#lyricscontent-wrapper h1 {
+  border: solid peru 10px;
+  border-style: double;
+  background-color: wheat;
+  padding: 10px 0;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#lyricscontent-wrapper p {
+  font-size: 1.3em;
+  line-height: 35px;
+}
+#lyricintro {
+  margin: 0 5% 0 5%;
+}
+.cursivefont, h4 {
+  margin: 0;
+}
+h2.cursivefont {
+  font-size: 2.2em;
+}
+#cursivefont {
+  padding: 20px 0 0 0;
+  font-size: 2em;
+}
+#cursivefont, blockquote {
+  font-family: 'Fondamento', cursive;
+}
+blockquote {
+  padding: 5px 0;
+  font-size: 1.25em;
+  background-color: wheat;
+  border-style: outset;
+  border-color: burlywood;
+}
+#tolerateit {
+  float: left;
+  width: 40%;
+  margin: 5% 5% 0 5%;
+}
+#cardigan {
+  float: left;
+  width: 45%;
+  margin: 5% 0 3% 0;
+}
+/* Below is Farm layout */
+#farmcontent-wrapper {
+  font-family: 'sh_pinscherregular';
+  font-weight: 500;
+  background-color: rgb(176, 247, 171);
+}
+#farmcontent-wrapper p {
+  font-size: 1.8em;
+  line-height: 30px;  
+}
+#farmcontent-wrapper h1 {
+  border: solid rgb(232, 54, 49) 10px;
+  border-style: ridge;
+  background-color: khaki;
+  font-size: 3em;
+  padding: 10px 0;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#farmcontent-wrapper h2 {
+  font-size: 2.4em;
+}
+#farmanimals {
+  float: left;
+  width: 31%;
+  margin: 0 3%;
+}
+#artisangoods {
+  float: left;
+  width: 30%;
+  margin: 0 0;
+}
+#family {
+  float: left;
+  width: 25%;
+  margin: 0 3%;
+}
+#farmlayout {
+  float: left;
+  margin: 2%
+}
+#animalphotos {
+  float: left;
+  margin: 0 21%;
+  height: auto;
+  max-width: 100%;
+}
+.largemedia {
+  display: block;
+  margin: 2% auto;
+  height: auto;
+  max-width: 80%;
+  border: solid black 3px;
+}
