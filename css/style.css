@@ -184,8 +184,15 @@ blockquote {
     font-size: 1.8em;
   }
   #farmcontent-wrapper h1 {
-    border: 10px;
-    width: 500px;
+    border: solid rgb(232, 54, 49) 10px;
+    border-style: ridge;
+    background-color: khaki;
+    font-size: 3.5em;
+    padding: 10px 0;
+    width: 550px;
+  }
+  #farmcontent-wrapper h2 {
+      font-size: 2.7em;
   }
   #farmanimals {
     float: left;
