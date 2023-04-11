@@ -117,48 +117,30 @@ blockquote {
 #farmcontent-wrapper {
   font-family: 'sh_pinscherregular';
   font-weight: 500;
-  background-color: rgb(176, 247, 171);
+  background-color: rgb(131, 168, 50);
 }
 #farmcontent-wrapper p {
-  font-size: 1.8em;
-  line-height: 30px;  
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 20px;
 }
 #farmcontent-wrapper h1 {
-  border: solid rgb(232, 54, 49) 10px;
+  border: solid rgb(232, 54, 49) 8px;
   border-style: ridge;
   background-color: khaki;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 10px 0;
-  width: 500px;
+  width: 350px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 #farmcontent-wrapper h2 {
-  font-size: 2.4em;
-}
-#farmanimals {
-  float: left;
-  width: 31%;
-  margin: 0 3%;
-}
-#artisangoods {
-  float: left;
-  width: 30%;
-  margin: 0 0;
-}
-#family {
-  float: left;
-  width: 25%;
-  margin: 0 3%;
-}
-#farmlayout {
-  float: left;
-  margin: 2%
+    font-size: 1.9em;
+    padding: 0 0 0 20px;
 }
 #animalphotos {
-  float: left;
-  margin: 0 21%;
+  margin: 30px;
   height: auto;
   max-width: 100%;
 }
@@ -168,4 +150,54 @@ blockquote {
   height: auto;
   max-width: 80%;
   border: solid black 3px;
+}
+
+/* Half size */
+@media screen and (min-width: 600px) {
+  #farmcontent-wrapper {
+    background-color: limegreen;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 930px) {
+  #farmcontent-wrapper {
+    background-color: rgb(176, 247, 171);
+  }
+  #farmcontent-wrapper p {
+    font-size: 1.8em;
+  }
+  #farmcontent-wrapper h1 {
+    border: 10px;
+    font-size: 3em;
+    width: 500px;
+  }
+  #farmcontent-wrapper h2 {
+    font-size: 2.4em;
+  }
+  #farmanimals {
+    float: left;
+    width: 31%;
+    margin: 0 3%;
+  }
+  #artisangoods {
+    float: left;
+    width: 30%;
+    margin: 0 0;
+  }
+  #family {
+    float: left;
+    width: 25%;
+    margin: 0 3%;
+  }
+  #farmlayout {
+    float: left;
+    margin: 2%
+  }
+  #animalphotos {
+    float: left;
+    margin: 0 21%;
+    height: auto;
+    max-width: 100%;
+  }
 }
