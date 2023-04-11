@@ -157,6 +157,22 @@ blockquote {
   #farmcontent-wrapper {
     background-color: limegreen;
   }
+  #farmcontent-wrapper p {
+    font-size: 1.8em;
+  }
+  #farmcontent-wrapper h1 {
+    font-size: 3em;
+    width: 450px;
+  }
+  #farmcontent-wrapper h2 {
+      font-size: 2.4em;
+  }
+  #animalphotos {
+    float: left;
+    margin: 0 21%;
+    height: auto;
+    max-width: 100%;
+  }
 }
 
 /* Desktop */
@@ -169,11 +185,7 @@ blockquote {
   }
   #farmcontent-wrapper h1 {
     border: 10px;
-    font-size: 3em;
     width: 500px;
-  }
-  #farmcontent-wrapper h2 {
-    font-size: 2.4em;
   }
   #farmanimals {
     float: left;
@@ -193,11 +205,5 @@ blockquote {
   #farmlayout {
     float: left;
     margin: 2%
-  }
-  #animalphotos {
-    float: left;
-    margin: 0 21%;
-    height: auto;
-    max-width: 100%;
   }
 }
