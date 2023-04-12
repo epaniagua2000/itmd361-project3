@@ -217,8 +217,8 @@ blockquote {
 
 /*boxslider*/
 .slideshow {
-			max-width: 600px;
-			margin: 0 auto;
+			max-width: 450px;
+			margin: auto;
 		}
 .slideshow ul {
   margin: 0;

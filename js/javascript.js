@@ -1,5 +1,9 @@
+/* box slider */
 $(document).ready(function(){
 			$('.bxslider').bxSlider({
-				mode: 'fade'
+				mode: 'horizontal',
+        auto: true,
+        speed: 500,
+        pause: 3000
 			});
 });
