@@ -224,11 +224,10 @@ blockquote {
   margin: 0;
 }
 
-/*map*/
 #wrapper {
   background-color: rgb(129, 181, 212);
   overflow: hidden;
-}
+} 
 #map {
   width: 850px;
   height: 575px;
@@ -236,5 +235,3 @@ blockquote {
   margin: 15px auto;
   border: solid black 2px;
 }
-
-

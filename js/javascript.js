@@ -7,18 +7,33 @@ $(document).ready(function(){
         pause: 3000
 			});
 });
-
+ 
 /* map */
-let map;
-
-async function initMap() {
-  //@ts-ignore
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 35.6762, lng: 139.6503},
+ 
+function initMap() {
+  const ghibli = { lat: 35.6962, lng: 139.5704 };
+  const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
+    center: ghibli,
+  });
+  
+  
+  var marker = new google.maps.Marker({
+    position: ghibli,
+    map,
+    animation: google.maps.Animation.DROP,
+    icon: 'media/markerpoint.png',
+  });
+  
+  var contentString = '<h3>Studio Ghibli Museum</h3>';
+  
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  })
+  
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(map, marker);
   });
 }
 
-initMap();
+window.initMap = initMap;
