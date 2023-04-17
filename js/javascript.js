@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
  
 /* map */
- 
+
 function initMap() {
   const ghibli = { lat: 35.6962, lng: 139.5704 };
   const palace = { lat: 35.68587214339364, lng: 139.75387238357166 };
